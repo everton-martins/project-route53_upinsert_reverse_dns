@@ -7,13 +7,13 @@ ENVTYPE = sys.argv[3]
 
 # ZoneIDs
 if ENVTYPE=='prd':
-    ZONEID='/hostedzone/Z38ERPC71LLE7'
+    ZONEID='/hostedzone/XXXX'
     PROFILE='default'
 elif ENVTYPE=='dev':
-    ZONEID='/hostedzone/Z30N255VLTE3FX'
+    ZONEID='/hostedzone/YYYYY'
     PROFILE='shr'
 elif ENVTYPE=='hlg':
-    ZONEID='/hostedzone/Z1N9HWA1P14UQ1'
+    ZONEID='/hostedzone/WWWWW'
     PROFILE='shr'
 
 
